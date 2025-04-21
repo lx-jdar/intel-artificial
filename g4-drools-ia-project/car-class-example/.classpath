@@ -4,12 +4,522 @@
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/main/test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="DROOLS/Drools"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="lib/hamcrest-all-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/hamcrest-generator-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/hamcrest-integration-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="/Stock/lib/aether-api-1.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/aether-connector-basic-1.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/aether-impl-1.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/aether-spi-1.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/aether-transport-file-1.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/aether-transport-http-1.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/aether-transport-wagon-1.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/aether-util-1.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/ant-1.10.11.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/ant-launcher-1.10.11.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/antlr-runtime-3.5.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/aopalliance-1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/codemodel-2.3.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/commons-codec-1.15.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/commons-collections4-4.4.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/commons-compress-1.21.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/commons-lang3-3.11.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/commons-math3-3.4.1.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/curvesapi-1.06.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-beliefs-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-compiler-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-core-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-core-dynamic-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-core-reflective-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-decisiontables-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-ecj-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-mvel-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-persistence-api-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-persistence-jpa-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-ruleunit-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-scorecards-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-serialization-protobuf-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/drools-templates-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/dtd-parser-1.4.5.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/ecj-3.18.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/guice-4.0-no_aop.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/httpclient-4.5.13.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/httpcore-4.4.14.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/istack-commons-runtime-3.0.12.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/istack-commons-tools-3.0.12.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.activation-api-1.2.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.annotation-api-1.3.5.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.ejb-api-3.2.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.el-api-3.0.3.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.enterprise.cdi-api-2.0.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.inject-api-1.0.3.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.interceptor-api-1.2.5.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.persistence-api-2.2.3.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.transaction-api-1.3.3.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jakarta.xml.bind-api-2.3.3.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/javassist-3.26.0-GA.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jaxb-runtime-2.3.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jaxb-xjc-2.3.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jcl-over-slf4j-1.7.30.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/jsoup-1.15.3.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-api-7.74.1.Final.jar"/>
+	<classpathentry kind="lib" path="/Stock/lib/kie-ci-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-internal-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-memory-compiler-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-pmml-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-soup-commons-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-soup-maven-integration-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-soup-maven-support-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-soup-project-datamodel-api-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-soup-project-datamodel-commons-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/kie-soup-xstream-7.74.1.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-aether-provider-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-artifact-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-builder-support-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-compat-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-core-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-model-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-model-builder-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-plugin-api-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-repository-metadata-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-settings-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/maven-settings-builder-3.3.9.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/mvel2-2.4.15.Final.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/mxparser-1.2.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/org.eclipse.sisu.inject-0.3.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/org.eclipse.sisu.plexus-0.3.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/plexus-cipher-1.7.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/plexus-classworlds-2.5.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/plexus-component-annotations-1.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/plexus-interpolation-1.21.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/plexus-sec-dispatcher-1.3.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/plexus-utils-3.0.24.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/poi-4.1.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/poi-ooxml-4.1.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/poi-ooxml-schemas-4.1.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/protobuf-java-3.19.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/relaxng-datatype-2.3.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/rngom-2.3.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/slf4j-api-1.7.30.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/SparseBitSet-1.2.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/txw2-2.3.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/wagon-http-3.0.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/wagon-http-shared-3.0.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/wagon-provider-api-3.0.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/xmlbeans-3.1.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/xmlpull-1.2.0.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/xsom-2.3.6.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Stock/lib/xstream-1.4.20.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

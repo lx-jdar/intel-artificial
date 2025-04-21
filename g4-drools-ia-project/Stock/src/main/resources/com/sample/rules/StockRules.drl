@@ -1,0 +1,35 @@
+//created on: 19/10/2021
+package StockRules;
+import com.sample.model.StockLevel;
+import com.sample.model.Product;
+//list any import classes here
+
+//declare any global variables here
+
+rule "R1 - Low Stock Level"
+	when $product: Product(stock > 0 && stock <= 10)
+		//conditions
+	then
+		$product.setLevel(StockLeve.low);
+		update($product);
+end
+
+rule "R2 - Medium Stock Level"
+	//include attributes such as "salience" here ...
+	when $product: Product(stock > 10 && stock <= 30)
+		//conditions
+	then
+		modify($product) {
+			level = StockLevel.medium;
+		}
+end
+
+rule "R3 - High Stock Level"
+	//include attributes such as "salience" here ...
+	when $product: Product(stock > 30)
+		//conditions
+	then
+		modify($product) {
+			level = StockLevel.high;
+		}
+end

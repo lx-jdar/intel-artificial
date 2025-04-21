@@ -45,5 +45,6 @@
             <entry path="C:\altsoft\Eclipse_Dev\Jdks\jdk1.8\jre\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Program Files\Java\jdk-18.0.2.1" version="18.0.2.1"/>
     <libraryInfo home="C:\altsoft\Eclipse_Dev\Eclipse\Eclipse-2024-03-R-JavaXtd-Drools2\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.14.v20250130-2147" version="17.0.14"/>
 </libraryInfos>
