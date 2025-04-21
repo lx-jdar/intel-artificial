@@ -4,7 +4,7 @@ import model.Automovil;
 import model.Bateria;
 import model.Recomendacion;
 import model.AccionRecomendada;
-//import model.ResultadoDiagnosticoPreliminar;
+import model.ResultadoDiagnosticoPreliminar;
 import model.Motor;
 import model.TanqueCombustible;
 

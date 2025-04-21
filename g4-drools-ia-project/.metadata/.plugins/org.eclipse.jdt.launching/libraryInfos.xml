@@ -3,7 +3,28 @@
     <libraryInfo home="C:\altsoft\Eclipse_Dev\Jdks\jdk11" version="11.0.23"/>
     <libraryInfo home="C:\altsoft\Eclipse_Dev\Jdks\jdk21" version="21.0.3"/>
     <libraryInfo home="C:\altsoft\Eclipse_Dev\Jdks\openjdk23" version="23.0.1"/>
+    <libraryInfo home="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8" version="1.8.0_412-412">
+        <bootpath>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\resources.jar"/>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\rt.jar"/>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\sunrsasign.jar"/>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\jsse.jar"/>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\jce.jar"/>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\charsets.jar"/>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\jfr.jar"/>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\JDK1.8\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\Eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.14.v20250130-2147" version="17.0.14"/>
     <libraryInfo home="C:\altsoft\Eclipse_Dev\Jdks\jdk17" version="17.0.11"/>
+    <libraryInfo home="G:\Otros ordenadores\Mi PC\UNLAM\Inteligencia Artificial\Ejercicios\Drools\Eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.14.v20250130-2147\jre" version="17.0.14"/>
     <libraryInfo home="C:\altsoft\Eclipse_Dev\Eclipse\Eclipse-2024-03-R-JavaXtd-Drools2\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.14.v20250130-2147\jre" version="17.0.14"/>
     <libraryInfo home="C:\altsoft\Eclipse_Dev\Jdks\jdk1.8" version="1.8.0_412-412">
         <bootpath>
